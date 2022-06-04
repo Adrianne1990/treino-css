@@ -28,7 +28,43 @@ body {
     border-left: 15px solid blue;
     border-right: 15px solid yellow;
     border-bottom: 15px solid green;
-
-
-    
 } 
+
+.main-aside h2{
+    text-align: center;
+}
+
+.main-aside h2:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;   
+}
+
+.main-aside ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-aside ul a:hover {
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.main-aside ul a:visited {
+    color: greenyellow;
+}
+
+
+/* Formulários */
+.main-form {
+    padding-left: 20px;
+}
+
+.main-form.main-group {
+    padding-bottom: 10px;
+}
